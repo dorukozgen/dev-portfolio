@@ -1,0 +1,16 @@
+{
+  "name": "backend-portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "dotenv-safe": "^8.2.0",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.10.0",
+    "http": "^0.0.1-security",
+    "nodemailer": "^6.9.4"
+  }
+}

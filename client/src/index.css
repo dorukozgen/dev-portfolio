@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inconsolata', monospace;
+  background-color: #181818;
+}
+
+a:hover path {
+  fill: white;
+  transition: 0.2s fill ease-in-out;
+}
+
+a:hover svg {
+  stroke: white;
+  transition: 0.2s stroke ease-in-out;
+}
+
+a:hover svg g {
+  stroke: white;
+  transition: 0.2s stroke ease-in-out;
+}
