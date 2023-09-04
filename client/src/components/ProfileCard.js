@@ -1,7 +1,7 @@
 function ProfileCard() {
     return (
         <>
-            <div className="flex lg:w-[40%] w-[100%] h-[70%] flex-col justify-center lg:text-left text-center">
+            <div className="flex lg:w-[40%] w-[100%] flex-col justify-center lg:text-left text-center">
                 <span className="text-[#ffffff] font-bold md:text-4xl text-2xl">
                     Merhaba, ben Doruk
                 </span>
