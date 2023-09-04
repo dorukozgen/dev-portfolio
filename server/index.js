@@ -32,6 +32,14 @@ const contactLimiter = rateLimit({
     }
 });
 
+app.get('/', (req, res) => {
+    res.send('Hello World!');
+});
+
+app.get('/api', (req, res) => {
+    res.send('Hello World!');
+});
+
 app.post('/api/contact', contactLimiter, (req, res) => {
     const { email, subject, message } = req.body;
 
@@ -41,6 +49,15 @@ app.post('/api/contact', contactLimiter, (req, res) => {
         subject: subject,
         text: `${email}\n\n${message}`
     };
+
+    if (!email || !subject || !message) {
+        return res
+            .status(400)
+            .send({
+                success: false,
+                message: 'Lütfen tüm alanları doldurunuz.'
+            });
+    }
 
     transporter.sendMail(mailOptions, (error, info) => {
         if (error) {
