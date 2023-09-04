@@ -29,14 +29,14 @@ function App() {
       <div className="h-screen">
         <div className='flex items-center justify-center h-[95vh] my-8 lg:my-0'>
           {!isMobile && <Medias className="flex flex-col gap-[10px] ml-[10px]" />}
-          <div className="flex flex-col lg:flex-row gap-[10vh] lg:gap-0 h-full items-center justify-between w-[80%] mx-auto">
+          <div className="flex flex-col lg:flex-row gap-[10vh] lg:gap-0 h-full items-center justify-between w-[75%] min-w-[350px] mx-auto">
             <ProfileCard />
             <Logo />
             {isMobile && <Medias className="flex flex-row gap-[10px]" />}
           </div>
         </div>
       </div>
-    </>
+    </>t
   );
 }
 
