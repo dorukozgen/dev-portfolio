@@ -1,3 +1,7 @@
 window.env = {
-  "API_URL": "http://localhost:5000"
+  "API_URL": "https://api-dorukozgen-portfolio.vercel.app",
+  "GITHUB_API_URL": "https://api.github.com/users/dorukozgen/repos",
+  "GITHUB_URL": "https://github.com/dorukozgen",
+  "LINKEDIN_URL": "https://www.linkedin.com/in/dorukozgen",
+  "INSTAGRAM_URL": "https://www.instagram.com/dorukozgen0"
 };
