@@ -79,7 +79,4 @@ app.post('/api/contact', contactLimiter, (req, res) => {
 });
 
 const PORT = process.env.PORT;
-const http = require('http');
-const server = http.createServer(app);
-
-server.listen(PORT, () => console.log('Server is running on port ' + PORT));
+app.listen(PORT, () => console.log(`Server is running on port ${PORT}`));
