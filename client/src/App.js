@@ -27,9 +27,9 @@ function App() {
   return (
     <>
       <div className="h-screen">
-        <div className='flex items-center justify-center h-[95vh]'>
+        <div className='flex items-center justify-center h-[95vh] my-8 lg:my-0'>
           {!isMobile && <Medias className="flex flex-col gap-[10px] ml-[10px]" />}
-          <div className="flex flex-col lg:flex-row gap-[10vh] lg:gap-0 h-full items-center justify-between w-[80%] mx-auto my-10 md:my-0">
+          <div className="flex flex-col lg:flex-row gap-[10vh] lg:gap-0 h-full items-center justify-between w-[80%] mx-auto">
             <ProfileCard />
             <Logo />
             {isMobile && <Medias className="flex flex-row gap-[10px]" />}
