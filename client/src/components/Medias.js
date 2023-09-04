@@ -27,17 +27,17 @@ function Medias(props) {
 
     const socialLinks = [
         {
-            url: "https://github.com/dorukozgen",
+            url: window.env.GITHUB_URL,
             icon: <GitHubSvg />,
             tabIndex: 1,
         },
         {
-            url: "https://www.linkedin.com/in/dorukozgen/",
+            url: window.env.LINKEDIN_URL,
             icon: <LinkedInSvg />,
             tabIndex: 2,
         },
         {
-            url: "https://www.instagram.com/dorukozgen0/",
+            url: window.env.INSTAGRAM_URL,
             icon: <InstagramSvg />,
             tabIndex: 3,
         },
