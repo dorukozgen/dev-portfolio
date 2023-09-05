@@ -9,11 +9,11 @@ function ProfileCard() {
                     Yazılım Test Geliştiricisi
                 </span>
 
-                <p className="text-[#ffffff] pt-[70px] md:text-xl text-base">
+                <p className="text-[#ffffff] md:pt-[70px] pt-[40px] md:text-xl text-base">
                     QA, QA Automation, QA Automation Engineer, Software Test Engineer, Test Automation Engineer
                 </p>
 
-                <div className="flex flex-row gap-5 pt-[20px] mx-auto lg:mx-0">
+                <div className="flex flex-row gap-5 md:pt-[20px] pt-[40px] mx-auto lg:mx-0">
                     <a className="border-[2px] hover:bg-gray-100 border-gray-400 md:text-xl text-sm text-gray-400 rounded shadow inline-block text-center h-fit w-fit px-[15px] py-[5px]" href="/about">
                         Hakkımda
                     </a>
